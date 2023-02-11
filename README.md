@@ -29,17 +29,27 @@
      
 ### App Features:
 - [x] Add a new task
-- [x] Modify existing task
-- [x] Get task by task id
+- [x] Update existing task
+- [x] Get all tasks
 - [x] Delete task
+- [x] Save your tasks
     
     
 ### Languages and Tools :hammer_and_wrench::
 <div>
    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/docker/docker-original-wordmark.svg" title="Docker" width="40" height="40"/>&nbsp;
    <img src="https://raw.githubusercontent.com/devicons/devicon/1119b9f84c0290e0f0b38982099a2bd027a48bf1/icons/python/python-original-wordmark.svg" title="Python" width="40" height="40"/>&nbsp;
-    <img src="https://upload.wikimedia.org/wikiversity/en/8/8c/FastAPI_logo.png" title="FastAPI" width="80" height="40"/>&nbsp;
+   <img src="https://upload.wikimedia.org/wikiversity/en/8/8c/FastAPI_logo.png" title="FastAPI" width="80" height="40"/>&nbsp;
+   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg" title="React" width="40" height="40"/>&nbsp;
 </div>
+ 
+ <div><div/>
+ 
+ ### Demo :clapper::
+https://user-images.githubusercontent.com/89268094/218276615-d258e9ba-65fc-4941-adac-bcd0858b24c3.mp4
+
+
+
  
  ### Installation Instructions:
  1.
@@ -52,16 +62,13 @@
       ![image](https://user-images.githubusercontent.com/89268094/208521984-1ba8917d-60b5-404b-bb51-0cd50836f02e.png)
  4.
          docker composer up -d
-      ![image](https://user-images.githubusercontent.com/89268094/208521647-27585e00-3dd0-413d-a692-822ff09d4262.png)
-      ![image](https://user-images.githubusercontent.com/89268094/208521713-5eaf28d9-daf8-449a-824c-5eeb4dd06f11.png)
+      ![image](https://user-images.githubusercontent.com/89268094/212502461-383670e8-5ab2-4ab9-984e-97accc35a239.png)
 
  5.
-         Check that you have 2 containers running (backend & mongodb):
+         Check that you have 3 containers running (backend, frontend, mongodb):
          docker compose ps
-       ![image](https://user-images.githubusercontent.com/89268094/208521250-c6892226-1192-4975-aac7-1b8f0a561eba.png)
+       ![image](https://user-images.githubusercontent.com/89268094/212502459-b446613f-d205-467e-92ec-3b49b69c9449.png)
 
  6.
          Open you browser and Enter:
-         http://localhost:8080
-
-
+         http://localhost:3000
