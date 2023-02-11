@@ -1,0 +1,52 @@
+.header{
+    text-align: center;
+    text-shadow: 1px 1px 3px #000000;
+    font-size: 45px;
+    color:rgb(99, 57, 234)
+}
+.creatBtn{
+    text-align: center;
+}
+.btns{
+    margin:5% !important;
+}
+.taskCard{
+    margin:7%;
+    padding: 2%;
+}
+.allCards{
+    padding:5%;
+}
+.cardComponent{
+    width: 110%;
+    margin-bottom: 5%;
+    border-top: 7px solid rgb(27, 154, 239);
+}
+
+.deleteButton{
+    text-align: right;
+    
+}
+
+.editButton{
+    text-align: right;
+    
+}
+
+.actionButtons{
+    margin:7% !important;
+}
+
+.inputs{
+    padding: 5% !important;
+}
+
+.gridTitles{
+    width: 100% !important;
+    height: 20% !important;
+}
+
+.gridDescription{
+    width: 100% !important;
+    height: 150% !important; 
+}
