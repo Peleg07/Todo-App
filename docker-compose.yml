@@ -1,11 +1,25 @@
 version: "3.9"
 services:
+  frontend:
+    build:
+      context: ./app/frontend
+      dockerfile: Dockerfile
+    ports:
+    - "3000:3000"
+    depends_on:
+      - backend
+    container_name: frontend
+    networks:
+      - app-network
+  
   database:
     image: mongo
     ports:
       - "27017:27017"
     restart: on-failure
     container_name: mongodb
+    volumes:
+      - "/usr/todo_app_mongodb:/data/db"
     networks:
       - app-network
   
